@@ -1,0 +1,187 @@
+:root {
+    --header-color: #757575;
+    --title-color: #212121;
+    --accent-color: #2196F3;
+    }
+
+body {
+    font-family: "Roboto", "sans-serif";
+    color: var(--header-color);
+}
+
+/* Header*/
+
+.header {
+    background-color: #FFFFFF;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.logo {
+    font-family: "Raleway", "sans-serif";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.logo-dark-text {
+    color: #000000;
+}
+.current {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.nav-link {
+font-family: "Roboto", "sans-serif";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+.nav-contact {
+font-family: "Roboto", "sans-serif";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.nav-contact:hover,
+.nav-contact:focus {
+    color: var(--accent-color);
+}
+/* Section Name */
+.name {
+    background-color: #2F303A;
+}
+.name-title {
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.name-btn {
+font-family: inherit;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: var(--accent-color);
+}
+.name-btn:hover, .name-btn:focus {
+   background-color: #188CE8;
+}
+
+/* Section principles */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+.principles-title {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-color);
+}
+.principles-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+/* Section about */
+.about-title {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+
+/* Team */
+.team {
+    background-color: #F5F4FA;;
+}
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+.team-position { 
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--header-color);
+}
+
+/* Footer */
+.footer {
+background-color: #2F303A;
+;
+}
+.logo-light-text {
+    color: #FFFFFF;
+}
+.adress-link {
+font-family: "Roboto", "sans-serif";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.adress-contact {
+font-family: "Roboto", "sans-serif";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
