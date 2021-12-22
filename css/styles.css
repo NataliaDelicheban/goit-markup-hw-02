@@ -2,6 +2,7 @@
     --header-color: #757575;
     --title-color: #212121;
     --accent-color: #2196F3;
+    --btn-color: #FFFFFF;
     }
 
 body {
@@ -12,7 +13,7 @@ body {
 /* Header*/
 
 .header {
-    background-color: #FFFFFF;
+    background-color: var(--btn-color);
 }
 .link {
     text-decoration: none;
@@ -30,16 +31,15 @@ body {
 .logo-dark-text {
     color: #000000;
 }
-.current {
-    color: var(--accent-color);
-    text-decoration: none;
-}
 .nav-link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--title-color);
+}
+.current {
+    color: var(--accent-color);
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -50,7 +50,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--header-color);
 }
 .nav-contact:hover,
 .nav-contact:focus {
@@ -67,11 +67,10 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--btn-color);
 }
 .name-btn {
 font-family: inherit;
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -79,8 +78,9 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color: #FFFFFF;
+color: var(--btn-color);
 background-color: var(--accent-color);
+cursor: pointer;
 }
 .name-btn:hover, .name-btn:focus {
    background-color: #188CE8;
@@ -140,7 +140,6 @@ letter-spacing: 0.03em;
 color: var(--title-color);
 }
 .team-position { 
-font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
@@ -154,19 +153,18 @@ background-color: #2F303A;
 ;
 }
 .logo-light-text {
-    color: #FFFFFF;
+    color: var(--btn-color);
+}
+.address {
+font-style: normal;
 }
 .adress-link {
-font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--btn-color);
 }
 .adress-contact {
-font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -181,11 +179,11 @@ font-size: 16px;
 line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
-color: #FFFFFF;
-
+color: var(--btn-color);
 background: var(--accent-color);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
+cursor: pointer;
 }
 .filter-btn {
 font-family: inherit;
@@ -195,13 +193,15 @@ line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-color);
-background-color: #F5F4FA;;
+background-color: #F5F4FA;
+cursor: pointer;
 }
 .filter-btn-main:hover,
 .filter-btn-main:focus,
 .filter-btn:hover,
 .filter-btn:focus {
-color: var(--accent-color);
+background-color: var(--accent-color);
+color: var(--btn-color);
 }
 .projects-title {
 font-size: 18px;
